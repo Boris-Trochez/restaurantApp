@@ -1,0 +1,1 @@
+export const fruityvice: string = 'https://www.fruityvice.com/api/fruit' 

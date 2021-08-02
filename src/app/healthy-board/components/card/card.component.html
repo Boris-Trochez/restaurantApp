@@ -1,0 +1,17 @@
+
+<div class="container">
+    <div class="row  justify-content-between">
+      <div *ngFor="let item of fruitsList" class="card col-4 mb-4" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{ item.name }}</h5>
+          <p class="card-text">{{ item.family }}</p>
+          <!-- <p class="card-text">{{ item.nutritions.carbohydrates }}</p>
+          <p class="card-text">{{ item.nutritions.protein }}</p>
+          <p class="card-text">{{ item.nutritions.fat }}</p>
+          <p class="card-text">{{ item.nutritions.calories}}</p>
+          <p class="card-text">{{ item.nutritions.sugar }}</p> -->
+          <a href="#" class="btn btn-primary"> Ordenar </a>
+        </div>
+      </div>
+    </div>
+  </div>

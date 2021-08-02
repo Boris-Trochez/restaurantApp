@@ -1,0 +1,6 @@
+
+    <select [(ngModel)]="supplierName"  (change)="selectSupplier()" class="form-select" aria-label="Default select example">
+        <option selected >{{ supplierName }}</option>
+        <option  *ngFor="let item of suppliersList, let i = index"[value]="item.name">{{ item.name }}</option>
+    </select>
+

@@ -1,0 +1,30 @@
+.main-container {
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.mt {
+    margin-top: 1rem;
+}
+
+.input-control {
+    border-radius: 15px;
+    min-height: 2rem;
+    outline-style: none;
+}
+
+.container:hover {
+    background-color: black;
+    cursor: pointer;
+    color: chocolate;
+}
+

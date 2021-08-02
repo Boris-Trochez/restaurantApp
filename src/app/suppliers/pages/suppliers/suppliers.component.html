@@ -1,0 +1,4 @@
+<div class="row container ">
+    <app-suppliers-list (newItemEvent)="addSupplier( $event )" ></app-suppliers-list>
+    <app-suppliers-products *ngIf="flag" [country]="country"></app-suppliers-products> 
+</div>
